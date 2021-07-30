@@ -1,0 +1,1 @@
+A website that counts down for you until a certain date or event. Followed a guide to practice my JavaScript skills.
