@@ -132,6 +132,29 @@ li span {
   animation: complete 4s infinite;
 }
 
+@keyframes complete {
+  0% {
+    color: rgb(245, 10, 10);
+  }
+
+  25% {
+    color: rgb(146, 255, 5);
+  }
+
+  50% {
+    color: rgb(12, 233, 12);
+    transform: scale(1.5);
+  }
+
+  75% {
+    color: rgb(17, 38, 77);
+  }
+
+  100% {
+    color: rgb(4, 41, 247);
+  }
+}
+
 
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
